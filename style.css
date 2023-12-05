@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
 }
-div {
+article {
   /* margin-left: 300px;
   margin-right: auto;*/
   font-family: sans-serif;
@@ -23,12 +23,13 @@ div {
 .sale {
   background-color: red;
   color: white;
-  width: 42px;
+  /*width: 42px;*/
   padding-top: 6px;
   padding-bottom: 6px;
   padding-left: 12px;
   padding-right: 12px;
   font-size: 17px;
+  letter-spacing: 1px;
   display: inline-block;
   position: absolute;
   top: -17px;
@@ -42,7 +43,9 @@ footer a {
   font-weight: bold;
   text-decoration: none;
   transition: text-decoration, color, opacity 0.3s;
-  margin-top: 15px;
+  margin-top: 2px;
+  margin-bottom: 20px;
+  display: inline-block;
 }
 footer a:hover {
   color: rgb(204, 31, 31);
@@ -51,6 +54,28 @@ footer a:hover {
 footer a:active {
   opacity: 0.8;
   cursor: progress;
+}
+.color {
+  background-color: black;
+  height: 22px;
+  width: 23px;
+  display: inline-block;
+  margin-right: 8px;
+}
+.color-blue {
+  background-color: blue;
+}
+.color-red {
+  background-color: red;
+}
+.color-yellow {
+  background-color: yellow;
+}
+.color-green {
+  background-color: green;
+}
+.color-brown {
+  background-color: brown;
 }
 p strong {
   font-size: 20px;
