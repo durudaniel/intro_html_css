@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 article {
   /* margin-left: 300px;
@@ -81,9 +82,6 @@ p strong {
   font-size: 20px;
   font-weight: bold;
 }
-div p:last-child {
-  color: rgb(51, 48, 48);
-}
 p {
   margin-bottom: 13px;
 }
@@ -116,4 +114,14 @@ button:hover {
 button:active {
   opacity: 0.8;
   cursor: progress;
+}
+
+/*Float*/
+.shipping {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #777;
+  margin-bottom: 20px;
+  float: right;
 }
